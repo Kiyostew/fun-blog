@@ -8,26 +8,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alarva Homepage</title>
   <link href="assets/styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./assets/script.js" defer></script>
 </head>
 
 <body>
   <!--create mobile header with hamburger-->
-  <header class="header">
-    <div id="headerInner">
-      <!-- navigation links-->
-      <div id="headerLinks">
-        <a href="#productivity">Productivity</a>
-        <a href="#wellness">Wellness</a>
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-      </div>
-
-      <!--Hambuger menu icon-->
-       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="changeThisToJavascriptFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+  <header class="topnav">
+    <a href="#home" class="active">Logo</a>
+    <!-- navigation links-->
+    <div id="navLinks">
+      <a href="#productivity">Productivity</a>
+      <a href="#wellness">Wellness</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
     </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
     </div>
   </header>
 </body>

@@ -1,3 +1,41 @@
-#headerInner {
-    
+/*style navigation menu */
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/*Hide Link in navigation menu*/
+#navLinks {
+  display: none;
+}
+
+/*style nav menu links */
+.topnav a {
+  color: #000000;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: block;
+}
+
+/* style hamburger menu */
+.topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: white;
+    color: black;
 }
