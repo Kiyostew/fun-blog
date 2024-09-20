@@ -9,6 +9,7 @@
 /*Hide Link in navigation menu*/
 #navLinks {
   display: none;
+  
 }
 
 /*style nav menu links */
@@ -18,24 +19,25 @@
   font-size: 16px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
   display: block;
 }
 
 /* style hamburger menu */
 .topnav a.icon {
-    background: white;
-    display: block;
-    position: absolute;
-    right: 0%;
-    top: 0%;
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .topnav a:hover {
-    background-color: #F0E0F0;
-    color: black;
+  background-color: #f0e0f0;
+  color: black;
 }
 
 .active {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
