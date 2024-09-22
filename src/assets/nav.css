@@ -1,9 +1,28 @@
-.topNav {
+.top-nav {
   background-color: white;
   overflow: hidden;
+  border-bottom: 0.5px solid #d8d8d8;
+  padding: 10px;
 }
 
-.navLinks a{
-    text-decoration: none;
-    font-size: 20px;
+.nav-links li {
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+}
+
+/* style nav links */
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  border: 0.5px solid #d8d8d8;
+}
+
+/* style hover */
+.nav-links a:hover {
+    background-color: gray;
+    color: black;
 }
