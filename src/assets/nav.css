@@ -1,12 +1,22 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 .top-nav {
   background-color: white;
   overflow: hidden;
   border-bottom: 0.5px solid #d8d8d8;
-  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: right ;
+  padding: 0px;
 }
 
 .nav-links li {
-  float: left;
   list-style-type: none;
   padding: 10px;
 }
@@ -14,7 +24,7 @@
 /* style nav links */
 .nav-links a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   color: black;
   padding: 10px;
@@ -23,6 +33,6 @@
 
 /* style hover */
 .nav-links a:hover {
-    background-color: gray;
-    color: black;
+  background-color: #edd9ed;
+  color: black;
 }
