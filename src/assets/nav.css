@@ -36,3 +36,20 @@ body {
   background-color: #edd9ed;
   color: black;
 }
+
+/* Add media queries */
+
+/*for small phones */
+@media screen and (max-width: 600px) {
+
+}
+
+/* for small devices (tablets and large phones) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+}
+
+/* for large devices (laptops/desktops) */
+@media screen and (min-width: 901px) {
+
+}
